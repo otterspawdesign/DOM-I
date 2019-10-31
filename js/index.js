@@ -77,3 +77,9 @@ aChildAppend.style.color = "green";
 const nav  = document.querySelector("nav");
 nav.appendChild(aChildAppend);
 
+// Prepend
+const aPrepend = document.createElement("a");
+aPrepend.href = "#";
+aPrepend.textContent = "Previous";
+aPrepend.style.color = "green";
+nav.prepend(aPrepend);
