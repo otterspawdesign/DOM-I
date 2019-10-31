@@ -83,3 +83,12 @@ aPrepend.href = "#";
 aPrepend.textContent = "Previous";
 aPrepend.style.color = "green";
 nav.prepend(aPrepend);
+
+// Update H4 headers
+let h4 = document.querySelectorAll("h4");
+h4[0].textContent = siteContent["main-content"]["features-h4"];
+h4[1].textContent = siteContent["main-content"]["about-h4"];
+h4[2].textContent = siteContent["main-content"]["services-h4"];
+h4[3].textContent = siteContent["main-content"]["product-h4"];
+h4[4].textContent = siteContent["main-content"]["vision-h4"];
+h4[5].textContent = siteContent["contact"]["contact-h4"];
