@@ -69,6 +69,11 @@ h1.textContent = siteContent["cta"]["h1"];
 let button = document.querySelector("button");
 button.textContent = siteContent["cta"]["button"];
 
-// Append Children
+// Append Child
 const aChildAppend = document.createElement("a");
 aChildAppend.href = "#";
+aChildAppend.textContent = "Next";
+aChildAppend.style.color = "green";
+const nav  = document.querySelector("nav");
+nav.appendChild(aChildAppend);
+
